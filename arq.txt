@@ -1,0 +1,4 @@
+in mogo db = follow the step below:
+    -data base access = name e pass
+    -network access > allow access from anywhere(any location and any computer can to get access), if you deploy, you ned change the ip number
+    -data base = resume your cluster  > connect your aplication, in the pass number two copy the url
