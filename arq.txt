@@ -1,0 +1,26 @@
+in mogo db = follow the step below:
+    -data base access = name e pass
+    -network access > allow access from anywhere(any location and any computer can to get access), if you deploy, you ned change the ip number
+    -data base = resume your cluster  > connect your aplication, in the pass number two copy the url
+
+
+after fineshed the first part of font-end i included api ulr in the package.json as a proxy
+    "proxy": "http://localhost:8800/api/"
+an then use the fetch on the pages
+
+obs: i`ve been istaled the dependce timeago, but i have to fix a problem, even intalling the babel, the problem is keeping
+
+to show or not the loguin option and login form i can use context api or redux, in this case i have been used redux
+
+to keep the user logged if you reload the page: in the redux toolkit documentation (not just redux documentation) you gonna search "persist" > "use with redux-pesist" or just in the use redux tollkit > usege guide scroll down or f3 "use with redux-persist"
+1 - install redux-persist
+2 - cppy and past the necessary importations from redux-persist and the persistConfig
+3 - import combineReducers from @redux-toolkit
+4 - creat the rootReducer const with the combineReducers
+resume: dont pass the reducers to the store, pas the persisted reducers to the store
+-- finally you gonna used the midlleware , becouse this can have error. Don`t worry about this middleware for now 
+and pas the tag PersitGate, its like a provider for persistents reducers,, put it in the index, inside redux provider tag, check this out 
+all about this in the documentation
+
+
+conditionally render the <Content></Content>. So, it should be {currentVideo && <Content></Content>} 2:35:24 fixed error

@@ -1,0 +1,13 @@
+https://youtu.be/CCF-xV3RSSs 
+see the dependences on the packge.json
+
+"type": "module" in json packge to use the import 
+
+
+remeber that, you need to creat a .env file, to put your ulr from mongo db, and replace the <password> for your password from
+and to use the .ent values you need to install dotenv dependence and imort it on the file you to use the const .env
+and then dotenvo.config() ean then procces.env.SOME
+
+create the colections in browser colection in data base 
+
+to incript the password i need to install teh dependence bcryptjs
